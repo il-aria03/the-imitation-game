@@ -254,8 +254,8 @@ Input data at every endpoint is validated through **Pydantic models**, reducing 
 
 ## Authors
 
-**Ilaria Casolino** — [ilary.casolino@gmail.com](mailto:ilary.casolino@gmail.com)
-**Matteo Giamberardini**
+**Ilaria Casolino** — [GitHub](https://github.com/ilaria-casolino)
+**Matteo Giamberardini** — [GitHub](https://github.com/mattew-giambo)
 
 Bachelor's Degree in Computer and Automation Engineering
 Faculty of Information Engineering, Informatics and Statistics
