@@ -242,3 +242,27 @@ Navigate to [http://localhost:8000](http://localhost:8000) in your browser.
 User passwords are never stored in plain text. The application uses **bcrypt** via the `Passlib` library, which automatically generates and applies a random salt before hashing. Verification at login consists of comparing the hash of the provided password against the stored hash — the original password is never recovered.
 
 Input data at every endpoint is validated through **Pydantic models**, reducing the risk of malformed or malicious payloads reaching the database or the AI service.
+
+---
+
+## Future Developments
+
+- **Global leaderboard** — a dedicated ranking page showing wins per role and mode, including AI victories (sessions where the LLM successfully fooled the Judge).
+- **Observer role** — users could review completed AI sessions, identify the clues that reveal the machine, and purchase hints using TuringCoin to use during live games.
+
+---
+
+## Authors
+
+**Ilaria Casolino** — [ilary.casolino@gmail.com](mailto:ilary.casolino@gmail.com)
+**Matteo Giamberardini**
+
+Bachelor's Degree in Computer and Automation Engineering
+Faculty of Information Engineering, Informatics and Statistics
+Sapienza University of Rome — A.Y. 2024/2025
+
+Supervised by **Prof. Roberto Navigli**
+
+---
+
+*TURING TEST GAME 2025 — Created by Matteo Giamberardini & Ilaria Casolino*
